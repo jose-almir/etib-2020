@@ -1,0 +1,17 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+$family-sans-serif: "Montserrat",
+sans-serif;
+$grey-lighter: #EFECED;
+$navbar-background-color: #F9F9F9;
+$navbar-item-img-max-height: 40px;
+$navbar-item-hover-background-color:#D3D3D3;
+$navbar-item-color: #000;
+$navbar-item-hover-color:#000;
+$navbar-dropdown-background-color: #EFECED;
+$navbar-dropdown-border-top: 0;
+$navbar-dropdown-item-hover-background-color:#D3D3D3;
+$button-text-hover-color: #000;
+$footer-background-color:#EFECED;
+$footer-padding: 2rem 1.5rem 1.5rem;
+@import "../bulma-0.9.0/bulma.sass";

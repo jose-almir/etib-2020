@@ -1,18 +1,120 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="has-navbar-fixed-top">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ETIB</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/mystyles.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script defer src=" https://use.fontawesome.com/releases/v5.0.7/js/all.js "></script>
 </head>
 
 <body>
+    <nav class="navbar is-fixed-top" role="navigation " aria-label="main navigation ">
+        <div class="navbar-brand ">
+            <a class="navbar-item " href="index.html ">
+                <img src="img/brand.png ">
+            </a>
+            <a role="button " class="navbar-burger burger" aria-label="menu " aria-expanded="false " data-target="nav " onclick="document.querySelector( '.navbar-menu').classList.toggle( 'is-active'); ">
+                <span aria-hidden="true "></span>
+                <span aria-hidden="true "></span>
+                <span aria-hidden="true "></span>
+            </a>
+        </div>
+        <div id="nav " class="navbar-menu ">
+            <div class="navbar-end ">
+                <div class="navbar-item has-dropdown is-hoverable ">
+                    <a class="navbar-link is-arrowless ">Conteúdo</a>
+                    <div class="navbar-dropdown is-right ">
+                        <a class="navbar-item ">
+                            Minicursos
+                          </a>
+                        <a class="navbar-item ">
+                            Palestras
+                          </a>
+                        <a class="navbar-item ">
+                            Competições
+                          </a>
+                    </div>
+                </div>
+                <a href=" " class="navbar-item ">Programação</a>
+                <a href=" " class="navbar-item ">Ajuda</a>
+            </div>
+        </div>
+    </nav>
 
+    <section class="hero is-medium has-background">
+        <img src="img/banner.jpg " class="hero-background is-transparent">
+        <div class="hero-body">
+            <div class="container container-center">
+                <p class="title pb-1 has-text-centered has-text-white">Venha para o maior evento de TI da Ibiapaba!</span>
+            </div>
+            <div class="container container-center">
+                <span class="pb-2 is-size-3 has-text-centered has-text-white">Entre 03 e 05 de novembro</span>
+            </div>
+            <span class="container container-center">
+                <button class="button is-light is-outlined is-large">
+                    <span class="pr-2">Inscrever-se</span>
+            <i class="fas fa-external-link-alt"></i>
+            </button>
+            </span>
+        </div>
+    </section>
+
+    <section class="hero is-small has-background-grey-lighter pt-2">
+        <div class="hero-head">
+            <div class="container container-center">
+                <span class="title">O que é o ETIB?</span>
+            </div>
+        </div>
+        <div class="hero-body">
+            <div class="container container-center">
+                <span class="is-size-4 has-text-centered">É o Evento de Tecnologia da Informação da Ibiapaba com 
+                    minicursos, palestras e competições.</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container container-center">
+            <span class="title"> Confira alguns cursos e palestras</span>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="content">
+            <div class="container pb-2">
+                <img src="img/logo.png" class="image" width="150px">
+            </div>
+            <div class="container ">
+                <span>
+                    <i class="fas fa-map-marker-alt "></i>
+                    <span class="is-size-6 ">CE-187, s/n - Estádio, Tianguá - CE, 62320-000</span>
+                </span>
+            </div>
+            <div class="container ">
+                <span>
+                    <i class="fas fa-phone "></i>
+                    <span class="is-size-6 ">(88) 3671-7900</span>
+                </span>
+            </div>
+            <div class="container ">
+                <hr class="has-background-black ">
+            </div>
+            <div class="container container-center">
+                <div class="level">
+                    <div class="level-left">
+                        <div class="level-item"><span class="title">Uma realização de</span></div>
+                        <div class="level-item"><img src="img/ifce.png" class="image is-256x256"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

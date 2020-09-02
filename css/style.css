@@ -1,1 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+.hero-background {
+    position: absolute;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+    filter: blur(0.5px);
+}
+
+.has-background {
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+
+.is-transparent {
+    opacity: .6;
+}
+
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
