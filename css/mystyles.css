@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap");
 /*! bulma.io v0.9.0 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -6578,7 +6579,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   font-family: "Montserrat", sans-serif !important; }
 
 .is-family-secondary {
-  font-family: "Montserrat", sans-serif !important; }
+  font-family: "Roboto", sans-serif !important; }
 
 .is-family-sans-serif {
   font-family: "Montserrat", sans-serif !important; }
