@@ -13,42 +13,7 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar is-fixed-top" role="navigation " aria-label="main navigation" style="z-index: 1000;">
-            <div class="navbar-brand ">
-                <a class="navbar-item " href="index.html ">
-                    <img src="img/brand.png ">
-                </a>
-                <a role="button " class="navbar-burger burger" aria-label="menu " aria-expanded="false " data-target="nav " onclick="document.querySelector( '.navbar-menu').classList.toggle( 'is-active'); ">
-                    <span aria-hidden="true "></span>
-                    <span aria-hidden="true "></span>
-                    <span aria-hidden="true "></span>
-                </a>
-            </div>
-            <div id="nav " class="navbar-menu ">
-                <div class="navbar-end ">
-                    <div class="navbar-item has-dropdown is-hoverable ">
-                        <a class="navbar-link is-arrowless has-text-weight-light">Conteúdo</a>
-                        <div class="navbar-dropdown is-right ">
-                            <a class="navbar-item has-text-weight-light">
-                                Minicursos
-                              </a>
-                            <a class="navbar-item has-text-weight-light">
-                                Palestras
-                              </a>
-                            <a class="navbar-item has-text-weight-light">
-                                Competições
-                              </a>
-                        </div>
-                    </div>
-                    <a href=" " class="navbar-item has-text-weight-light">Programação</a>
-                    <a href=" " class="navbar-item has-text-weight-light">Ajuda</a>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-
+    <script src="js/navbar.js"></script>
     <main>
         <section class="hero is-medium has-background">
             <img src="img/banner.jpg " class="hero-background is-transparent">
@@ -221,44 +186,14 @@
                 </div>
             </section>
 
-            <div class="container container-center">
-                <button class="button is-success is-inverted has-text-weight-bold is-size-5">Veja Mais >>>></button>
-            </div>
+            <a href="content.html">
+                <div class="container container-center">
+                    <button class="button is-success is-inverted has-text-weight-bold is-size-5">Veja Mais >>>></button>
+                </div>
+            </a>
         </section>
     </main>
-
-    <footer class="footer">
-        <div class="content">
-            <div class="container pb-2">
-                <img src="img/logo.png" class="image" width="150px">
-            </div>
-            <div class="container ">
-                <span>
-                    <i class="fas fa-map-marker-alt "></i>
-                    <span class="is-size-6 is-family-secondary has-text-weight-light">CE-187, S/N - Estádio, Tianguá - CE</span>
-                </span>
-            </div>
-            <div class="container ">
-                <span>
-                    <i class="fas fa-phone "></i>
-                    <span class="is-size-6 is-family-secondary has-text-weight-light">(88) 3671-7900</span>
-                </span>
-            </div>
-            <div class="container ">
-                <hr class="has-background-black ">
-            </div>
-            <div class="container container-center">
-                <div class="level">
-                    <div class="level-left">
-                        <div class="level-item"><span class="title is-size-4">Uma realização de</span></div>
-                        <div class="level-item">
-                            <a href="https://ifce.edu.br/" target="_blank"><img src="img/ifce.png" class="image" width="250px"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <script src="js/footer.js"></script>
 </body>
 
 </html>
