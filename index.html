@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <nav class="navbar is-fixed-top" role="navigation " aria-label="main navigation ">
+        <nav class="navbar is-fixed-top" role="navigation " aria-label="main navigation" style="z-index: 1000;">
             <div class="navbar-brand ">
                 <a class="navbar-item " href="index.html ">
                     <img src="img/brand.png ">
@@ -70,7 +70,7 @@
             </div>
         </section>
 
-        <section class="hero is-small has-background-grey-lighter pt-2">
+        <section class="hero is-small has-background-grey-lighter pt-2 pb-2">
             <div class="hero-head">
                 <div class="container container-center">
                     <span class="title">O que é o ETIB?</span>
@@ -89,98 +89,141 @@
                 <!--Seção de cards de minicursos e palestras em destaque-->
                 <span class="title"> Confira alguns cursos e palestras</span>
             </div>
-              <div class="columns">
-                 <!-- Card 1-->
-                 <div class="column">
-                     <div class="card">
-                         <div class="card-image">
-                             <figure class="image is-4by3 my-6">
-                                 <img src="img/card2.jpg">
-                             </figure>
-                         </div>
-                         <div class="card-content">
-                             <div class="media">
-                                 <div class="media-content">
-                                     <p class="title is-4 is-size-6 ">Introdução á Machine Learning com Python</p>
-                                 </div>
-                             </div>
-                             
-                             <div class="content">
-                                 <p class="is-size-7">03 de novembro ás 13:30</p>      
-                                 <p class="is-size-7">Carga horária: 3h</p>  
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-                 <!-- Card 2-->
-                 <div class="column">
-                     <div class="card">
-                         <div class="card-image">
-                             <figure class="image is-4by3 my-6">
-                                 <img src="img/card3.jpeg">
-                             </figure>
-                         </div>
-                         <div class="card-content">
-                             <div class="media">
-                                 <div class="media-content">
-                                     <p class="title is-4 is-size-6">Desenvolvimento Android com App Inventor</p>
-                                 </div>
-                             </div>
-                             
-                             <div class="content">
-                                 <p class="is-size-7">03 de novembro ás 13:30</p>      
-                                 <p class="is-size-7">Carga horária: 3h</p>   
-                             </div>
-                         </div>
-                     </div>
-                 </div>  
-                 <!-- Card 3-->
-                 <div class="column">
-                     <div class="card">
-                         <div class="card-image">
-                             <figure class="image is-4by3 my-6">
-                                 <img src="img/card.jpg">
-                             </figure>
-                         </div>
-                         <div class="card-content">
-                             <div class="media">
-                                 <div class="media-content">
-                                     <p class="title is-4 is-size-6">Como ser um melhor programador?</p>
-                                 </div>
-                             </div>
-                             
-                             <div class="content">
-                                 <p class="is-size-7">03 de novembro ás 13:30</p>      
-                                 <p class="is-size-7">Carga horária: 3h</p>   
-                             </div>
-                         </div>
-                     </div>
-                 </div>  
-                 <!-- Card 4-->
-                 <div class="column">
-                     <card class="card">
-                         <div class="card-image">
-                             <figure class="image is-4by3 my-6">
-                                 <img src="img/card2.jpg">
-                             </figure>
-                         </div>
-                         <div class="card-content">
-                             <div class="media">
-                                 <div class="media-content">
-                                     <p class="title is-4 is-size-6">Introdução á Machine Learning com Python</p>
-                                 </div>
-                             </div>
-                             
-                             <div class="content">
-                                 <p class="is-size-7">03 de novembro ás 13:30</p>      
-                                 <p class="is-size-7">Carga horária: 3h</p>  
-                             </div>
-                         </div>
-                     </div>
-                 </div> 
-              </div>
-              </card>
-              <center><button class="button is-success is-inverted has-text-weight-bold is-size-5">Veja Mais >>>></button></center>   
+            <section class="section">
+                <div class="columns">
+                    <!-- Card 1-->
+                    <div class="column">
+                        <a href="https://www.even3.com.br/etib/" target="_blank">
+                            <div class="card rounded-card">
+                                <i class="fas fa-external-link-alt external-link-card-icon is-size-4"></i>
+                                <div class="card-image">
+                                    <figure class="image is-16by9">
+                                        <img src="img/card2.jpg" class="rounded-image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="content">
+                                        <span class="tag is-rounded is-success mb-3">Minicurso</span>
+                                        <p class="title is-4 is-size-6">Introdução à Machine Learning com Python</p>
+                                        <div class="container">
+                                            <span>
+                                                <i class="far fa-calendar-alt" style="float: left;"></i>
+                                                <p class="is-size-7 is-family-secondary pl-5">03 de novembro às 13:30</p>
+                                            </span>
+                                        </div>
+                                        <div class="container">
+                                            <span>
+                                                <i class="far fa-clock" style="float: left;"></i>
+                                                <p class="is-size-7 is-family-secondary pl-5">3h</p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Card 2-->
+                    <div class="column">
+                        <a href="https://www.even3.com.br/etib/" target="_blank">
+                            <div class="card rounded-card">
+                                <i class="fas fa-external-link-alt external-link-card-icon is-size-4"></i>
+
+                                <div class="card-image">
+                                    <figure class="image is-16by9">
+                                        <img src="img/card3.jpeg" class="rounded-image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="content">
+                                        <span class="tag is-rounded is-success mb-3">Minicurso</span>
+                                        <p class="title is-4 is-size-6">Desenvolvimento Android com App Inventor</p>
+                                        <div class="container">
+                                            <span>
+                                                <i class="far fa-calendar-alt" style="float: left;"></i>
+                                                <p class="is-size-7 is-family-secondary pl-5">03 de novembro às 13:30</p>
+                                            </span>
+                                        </div>
+                                        <div class="container">
+                                            <span>
+                                                <i class="far fa-clock" style="float: left;"></i>
+                                                <p class="is-size-7 is-family-secondary pl-5">3h</p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Card 3-->
+                    <div class="column">
+                        <a href="https://www.even3.com.br/etib/" target="_blank">
+                            <div class="card rounded-card">
+                                <i class="fas fa-external-link-alt external-link-card-icon is-size-4"></i>
+
+                                <div class="card-image">
+                                    <figure class="image is-16by9">
+                                        <img src="img/card.jpg" class="rounded-image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="content">
+                                        <span class="tag is-rounded is-danger mb-3">Palestra</span>
+                                        <p class="title is-4 is-size-6">Como ser um melhor programador?</p>
+                                        <div class="container">
+                                            <span>
+                                                <i class="far fa-calendar-alt" style="float: left;"></i>
+                                                <p class="is-size-7 is-family-secondary pl-5">03 de novembro às 13:30</p>
+                                            </span>
+                                        </div>
+                                        <div class="container">
+                                            <span>
+                                                <i class="far fa-clock" style="float: left;"></i>
+                                                <p class="is-size-7 is-family-secondary pl-5">3h</p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Card 4-->
+                    <div class="column">
+                        <a href="https://www.even3.com.br/etib/" target="_blank">
+                            <div class="card rounded-card">
+                                <i class="fas fa-external-link-alt external-link-card-icon is-size-4"></i>
+
+                                <div class="card-image">
+                                    <figure class="image is-16by9">
+                                        <img src="img/card2.jpg" class="rounded-image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="content">
+                                        <span class="tag is-rounded is-success mb-3">Minicurso</span>
+                                        <p class="title is-4 is-size-6 ">Introdução à Machine Learning com Python</p>
+                                        <div class="container">
+                                            <span>
+                                            <i class="far fa-calendar-alt" style="float: left;"></i>
+                                            <p class="is-size-7 is-family-secondary pl-5">03 de novembro às 13:30</p>
+                                        </span>
+                                        </div>
+                                        <div class="container">
+                                            <span>
+                                            <i class="far fa-clock" style="float: left;"></i>
+                                            <p class="is-size-7 is-family-secondary pl-5">3h</p>
+                                        </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="container container-center">
+                <button class="button is-success is-inverted has-text-weight-bold is-size-5">Veja Mais >>>></button>
+            </div>
         </section>
     </main>
 
