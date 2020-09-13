@@ -3,7 +3,7 @@ document.write(`
         <nav class="navbar is-fixed-top" role="navigation " aria-label="main navigation" style="z-index: 1000;">
             <div class="navbar-brand">
                 <a class="navbar-item" href="index.html ">
-                    <img src="img/brand.png ">
+                    <img src="img/brand.png" alt="ETIB">
                 </a>
                 <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="nav" onclick="document.querySelector( '.navbar-menu').classList.toggle( 'is-active');">
                     <span aria-hidden="true"></span>

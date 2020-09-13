@@ -1,7 +1,7 @@
 document.write(`<footer class="footer">
 <div class="content">
     <div class="container pb-2">
-        <img src="img/logo.png" class="image" width="150px">
+        <img src="img/logo.png" class="image" width="150px" alt="ETIB">
     </div>
     <div class="container ">
         <span>
@@ -23,7 +23,7 @@ document.write(`<footer class="footer">
             <div class="level-left">
                 <div class="level-item"><span class="title is-size-4">Uma realização de</span></div>
                 <div class="level-item">
-                    <a href="https://ifce.edu.br/" target="_blank"><img src="img/ifce.png" class="image" width="250px"></a>
+                    <a href="https://ifce.edu.br/" target="_blank"><img src="img/ifce.png" class="image" width="250px" alt="IFCE"></a>
                 </div>
             </div>
         </div>
