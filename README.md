@@ -1,4 +1,4 @@
-<img src="img/logo.png" width="150px" height="86px">
+<img src="src/img/logo.png" width="150px" height="86px">
 
 # Checklist
 - [x] Página inicial
