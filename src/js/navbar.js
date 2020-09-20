@@ -16,13 +16,13 @@ document.write(`
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link is-arrowless has-text-weight-light" href="atividades.html">Atividades</a>
                         <div class="navbar-dropdown is-right">
-                            <a class="navbar-item has-text-weight-light" href="atividades.html#minicursos">
+                            <a href="#minicurso" class="navbar-item has-text-weight-light" href="atividades.html#minicursos">
                                 Minicursos
                               </a>
-                            <a class="navbar-item has-text-weight-light" href="atividades.html#palestras">
+                            <a href="#palestra" class="navbar-item has-text-weight-light" href="atividades.html#palestras">
                                 Palestras
                               </a>
-                            <a class="navbar-item has-text-weight-light" href="atividades.html#comps">
+                            <a href="#competição" class="navbar-item has-text-weight-light" href="atividades.html#comps">
                                 Competições
                               </a>
                         </div>
