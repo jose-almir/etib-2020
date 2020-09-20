@@ -14,21 +14,21 @@ document.write(`
             <div id="nav" class="navbar-menu">
                 <div class="navbar-end">
                     <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link is-arrowless has-text-weight-light" href="atividades.html">Atividades</a>
+                        <a class="navbar-link is-arrowless" href="atividades.html">Atividades</a>
                         <div class="navbar-dropdown is-right">
-                            <a href="#minicurso" class="navbar-item has-text-weight-light" href="atividades.html#minicursos">
+                            <a class="navbar-item" href="atividades.html#minicursos">
                                 Minicursos
                               </a>
-                            <a href="#palestra" class="navbar-item has-text-weight-light" href="atividades.html#palestras">
+                            <a class="navbar-item" href="atividades.html#palestras">
                                 Palestras
                               </a>
-                            <a href="#competição" class="navbar-item has-text-weight-light" href="atividades.html#comps">
+                            <a class="navbar-item" href="atividades.html#competicoes">
                                 Competições
                               </a>
                         </div>
                     </div>
-                    <a class="navbar-item has-text-weight-light" href="programacao.html">Programação</a>
-                    <a class="navbar-item has-text-weight-light" href="ajuda.html">Ajuda</a>
+                    <a class="navbar-item" href="programacao.html">Programação</a>
+                    <a class="navbar-item" href="ajuda.html">Ajuda</a>
                 </div>
             </div>
         </nav>

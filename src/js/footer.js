@@ -6,13 +6,13 @@ document.write(`<footer class="footer">
     <div class="container ">
         <span>
             <i class="fas fa-map-marker-alt "></i>
-            <span class="is-size-6 is-family-secondary has-text-weight-light">CE-187, S/N - Estádio, Tianguá - CE</span>
+            <span class="is-size-6 is-family-secondary">CE-187, S/N - Estádio, Tianguá - CE</span>
         </span>
     </div>
     <div class="container ">
         <span>
             <i class="fas fa-phone "></i>
-            <span class="is-size-6 is-family-secondary has-text-weight-light">(88) 3671-7900</span>
+            <span class="is-size-6 is-family-secondary">(88) 3671-7900</span>
         </span>
     </div>
     <div class="container ">
