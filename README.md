@@ -1,13 +1,13 @@
 <img src="src/img/logo.png" width="150px" height="86px">
 
-# O que é o ETIB?
-É o Evento de Tecnologia da Informação da Ibiapaba com minicursos, palestras e competições.
+# What is ETIB?
+ETIB is an information technology (IT) event in Ibiapaba with mini-courses, lectures, and competitions.
 
-# Checklist
-- [x] Página inicial
-- [x] Página de atividades(minicursos, palestras e competições)
-- [x] Página de programação do evento
-- [x] Página de ajuda
-- [x] Melhorias visuais na página(acessibilidade, tipografia, etc)
-- [x] Refatoração do código
-- [x] Redução do código(remover sass, bulma source code, branch named deploy)
+# Preview
+[Website](https://jose-almir.github.io/etib-2020/)
+
+![image](https://user-images.githubusercontent.com/50648379/235277303-a460f30d-245e-4387-965a-b9c33bb99581.png)
+
+# Tecnologies
+- BulmaCSS;
+- HTML/CSS/JAVASCRIPT.
